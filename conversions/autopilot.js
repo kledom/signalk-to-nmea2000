@@ -16,7 +16,7 @@ const debug = require('debug')('signalk-to-nmea2000/conversions/autopilot')
 module.exports = (app, plugin) => {
   return {
     pgns: [ 127237, 129283, 129284, 127258 ],
-    title: 'Autopilot Routing Data',
+    title: 'Autopilot Routing Data (127237, 128283, 129284, 127258)',
     optionKey: 'AUTOPILOTv2',
     keys: [
       'navigation.headingMagnetic',
